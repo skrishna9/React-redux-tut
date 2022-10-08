@@ -1,0 +1,4 @@
+what is props 
+make Component
+pass data 1 Component to other Component
+get data with props
