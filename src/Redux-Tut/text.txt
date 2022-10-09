@@ -2,3 +2,26 @@ what is props
 make Component
 pass data 1 Component to other Component
 get data with props
+
+
+
+//////////////////connect redux with react 
+Import react-redux , action and Component
+use mapDispatchTProps
+use mapStateToProps
+
+
+.\/////////////////// Make Redux wrapper in index file , What is provider , Make Store , check Data Flow in console , call Action on button click
+
+////Add Data in Cart 
+Get 1 item in cart 
+make some style for cart items 
+push multipal item in cart 
+show multipal count in cart 
+
+
+/////Pass data in Header Component
+make Header Component
+make Header container
+check data flow 
+show cart count in header Component

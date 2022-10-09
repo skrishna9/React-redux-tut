@@ -1,11 +1,10 @@
 import React from 'react'
 
-export default function Home() {
+export default function Home(props) {
+  console.warn("props",props.data)
+  console.warn("props",props)
   return (
     <div>
-        <div className='add-cart'>
-            <img src='https://tse4.mm.bing.net/th?id=OIP.iDVurdWMV4YcAhqCEaT1bQHaHa&pid=Api&P=0'/>
-        </div>
       <h1>Home Component</h1>
       <div className='cart-wrapper'>
         <div className='img-wrapper item'>
@@ -21,7 +20,8 @@ export default function Home() {
 
         </div>
         <div className='btn-wrapper item'>
-            <button>Add To Cart</button>
+            <button onClick={()=>props.addToCartHandler({Price:2000,name: 'i phone 11'})}>Add To Cart</button>
+            <button className='remove-cart-btn' onClick={()=>props.removeToCartHandler({Price:2000,name: 'i phone 11'})}>Remove To Cart</button>
         </div>
       </div>
     </div>

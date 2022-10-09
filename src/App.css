@@ -7,6 +7,67 @@
   pointer-events: none;
 }
 
+/*  */
+
+.btn-wrapper button{
+  background-color: darkorange;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #282c34 0px 1px 5px;
+}
+
+
+.img-wrapper img {
+  width: 50px;
+  margin-top: -20px;
+}
+
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+.item{
+  float: left;
+  width: 120px;
+  padding: 14px;
+  height: 70;
+
+}
+
+.add-cart img{
+  width: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.cart-count{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  background-color: #282c34;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+
+button.remove-cart-btn{
+  background-color: red;
+  margin-top: 8px;
+}
+
+/*  */
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
